@@ -1,0 +1,30 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+*.user
+*.suo
+*.userosscache
+
+# Test / coverage artifacts
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Local secrets (never commit)
+appsettings.*.local.json
+*.env

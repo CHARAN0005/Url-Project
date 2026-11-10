@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Url_short</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Storage/url.sql" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
